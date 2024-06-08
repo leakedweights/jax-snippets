@@ -7,8 +7,7 @@ Welcome to the JAX Snippets repository! This repository contains custom Visual S
 ```
 jax-snippets/
 ├── jax-snippets/
-│   ├── python.json
-│   └── other_language.json
+│   └── imports.json
 ├── .gitignore
 ├── LICENSE
 ├── README.md
