@@ -1,14 +1,29 @@
 {
-	"Import JAX and Flax": {
-		"prefix": "jaxflax",
-		"body": [
-			"import jax",
-			"import jax.numpy as jnp",
-			"from jax import random",
-			"from flax import linen as nn",
-			"",
-			""
-		],
-		"description": "Import common JAX and Flax components"
-	}
+    "Import JAX and Flax": {
+        "prefix": "jaxflax",
+        "body": [
+            "import jax",
+            "import jax.numpy as jnp",
+            "from jax import random",
+            "from flax import linen as nn",
+            "",
+            ""
+        ],
+        "description": "Import common JAX and Flax components"
+    },
+    "Import JAX and Flax Training Utils": {
+        "prefix": "jaxflaxtrain",
+        "body": [
+            "import jax",
+            "import jax.numpy as jnp",
+            "from jax import random",
+            "from flax import linen as nn",
+            "import optax",
+            "from flax.training import train_state",
+            "from flax.training import checkpoints",
+            "",
+            ""
+        ],
+        "description": "Import common JAX and Flax training utilities"
+    }
 }
