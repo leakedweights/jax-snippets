@@ -1,0 +1,14 @@
+{
+	"Import JAX and Flax": {
+		"prefix": "jaxflax",
+		"body": [
+			"import jax",
+			"import jax.numpy as jnp",
+			"from jax import random",
+			"from flax import linen as nn",
+			"",
+			""
+		],
+		"description": "Import common JAX and Flax components"
+	}
+}
