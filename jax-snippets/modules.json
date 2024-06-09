@@ -5,8 +5,8 @@
             "class ${1:Name}(nn.Module):",
             "",
             "   @nn.compact",
-            "def __call__(self, ${2:params}):",
-            ""
+            "   def __call__(self, ${2:params}):",
+            "       "
         ],
         "description": "Skeleton for a Flax nn.Module"
     }
