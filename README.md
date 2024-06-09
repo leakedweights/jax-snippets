@@ -8,6 +8,7 @@ Welcome to the JAX Snippets repository! This repository contains custom Visual S
 jax-snippets/
 ├── jax-snippets/
 │   ├── utils.json
+│   ├── modules.json
 │   └── imports.json
 ├── .gitignore
 ├── LICENSE
@@ -24,7 +25,6 @@ First, clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/leakedweights/jax-snippets.git
-cd jax-snippets/jax-snippets
 ```
 
 ### 2. Open User Snippets in VS Code
