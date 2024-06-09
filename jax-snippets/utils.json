@@ -1,0 +1,9 @@
+{
+    "JAX Debug Print": {
+        "prefix": "jdp",
+        "body": [
+            "jax.debug.print('${1:variable} = {${1:variable}}', ${1:variable}=${2:value})"
+        ],
+        "description": "JAX Debug Print"
+    }
+}
